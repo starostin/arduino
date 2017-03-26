@@ -1,0 +1,89 @@
+/platforms
+/builds
+/npm-debug.log
+*.apk
+!builds/**/*.apk
+*.properties
+*.pbxproj
+*.ap_
+*.dex
+*.class
+# hooks
+merges
+# plugins
+plugins/
+res/
+/vendors
+Gruntfile.js
+# config.xml
+builds
+info.txt
+# platforms/*
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcworkspace
+xcuserdata
+*.moved-aside
+._*
+.Spotlight-V100
+.Trashes
+!.gitignore
+.idea/
+nbproject/
+
+.DS_Store
+
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# SublimeText project files
+/*.sublime-project
+
+# Windows image file caches
+Thumbs.db
+
+# Folder config file
+Desktop.ini
+
+node_modules/
+bower_components/
+RAD.JS/
+
+# git ignore for android build
+ant-build/
+ant-gen/
+
+#git ignore for ios build
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcuserstate
+project.xcworkspace/
+xcuserdata/
+*.o
+*.pyc
+
+# rad examples
+www/libs/rad
+
+# build bundles
+www/build/*
+
+# develop stuff
+www-test-pdf
+
+input/

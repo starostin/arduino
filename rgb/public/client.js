@@ -3,7 +3,6 @@
   var red = document.getElementById('red');
   var green = document.getElementById('green');
   var blue = document.getElementById('blue');
-  console.log('-=--=-=-=-=-=io-=-=-=-=', io)
 
   function emitValue(color, e) {
     socket.emit('rgb', {

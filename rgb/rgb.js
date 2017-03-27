@@ -8,9 +8,6 @@ const io = require('socket.io')(server);
 
 let led = null;
 app.use(express.static(__dirname + '/public'));
-app.get('/', function(req, res, next) {
-  res.sendFile(__dirname + '/index.html')
-});
 
 five.Board().on('ready', function() {
   console.log('Arduino is ready.');
